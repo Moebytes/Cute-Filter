@@ -74,7 +74,7 @@ auto Parameters::createParameterLayout() -> AudioProcessorValueTreeState::Parame
     ));
 
     layout.add(std::make_unique<AudioParameterFloat>(
-        paramIDs.frequency, "Frequency", NormalisableRange<float>{200.0f, 20000.0f, 1.0f, 0.5f, true}, 20000.0f, 
+        paramIDs.frequency, "Frequency", NormalisableRange<float>{200.0f, 20000.0f, 1.0f, 0.5f}, 20000.0f, 
         AudioParameterFloatAttributes().withStringFromValueFunction(Functions::displayHz)
         .withValueFromStringFunction(Functions::parseHz)
     ));

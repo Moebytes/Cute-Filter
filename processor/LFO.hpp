@@ -57,7 +57,7 @@ public:
     }
 
     auto renderWaveform(float pos) -> float {
-        float tension = 5.0f;
+        float tension = 2.5f;
 
         if (this->type == "saw") {
             return 1.0f - 2.0f * pos;
