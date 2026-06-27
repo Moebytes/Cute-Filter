@@ -20,6 +20,12 @@ filters which I found to be great for getting a kawaii character.
 
 Our design is available here: https://www.figma.com/design/bDssWO2ixIN2Owd5liCKIl/Cute-Filter
 
+### Purchase
+
+<a href="https://moebytes.gumroad.com/l/cute-filter" target="_blank">
+  <img src="assets/gumroad.svg" style="height:60px;"/>
+</a>
+
 ### See Also
 
 - [Cute Gain](https://github.com/Moebytes/Cute-Gain) 
