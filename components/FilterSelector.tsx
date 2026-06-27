@@ -38,8 +38,12 @@ const FilterSelector: React.FunctionComponent = () => {
     }
 
     const filterString = () => {
-        if (!filterChoices[filterIndex]) return "LOWPASS 24 dB"
-        return `${filterChoices[filterIndex].toUpperCase()} ${slopeChoices[slopeIndex]}`
+        const filter = filterChoices?.[filterIndex]
+        const slope = slopeChoices?.[slopeIndex]
+
+        if (!filter || !slope) return "LOWPASS 24 dB"
+
+        return `${String(filter)?.toUpperCase()} ${slope}`
     }
 
     return (
