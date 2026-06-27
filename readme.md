@@ -13,6 +13,9 @@ Cute Filter is a VST plugin for filtering (lowpass, highpass, bandpass).
 - Filter LFO Amount - the amount of the filter LFO effect applied.
 - Filter LFO Invert - inverts the phase of the filter LFO.
 
+Most plugins use State Variable Filters (I think) but they sound pretty plain... this plugin uses Biquad 
+filters which I found to be great for getting a kawaii character. 
+
 ### Design
 
 Our design is available here: https://www.figma.com/design/bDssWO2ixIN2Owd5liCKIl/Cute-Filter
