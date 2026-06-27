@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "3000Hz Bandpass",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:37:35.473-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "bandpass",
+    "frequency": "3019Hz",
+    "resonance": "1.22",
+    "slope": "24 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "0%",
+    "filterLFOInvert": "Off"
+  }
+}

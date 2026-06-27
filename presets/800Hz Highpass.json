@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "800Hz Highpass",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:36:19.164-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "highpass",
+    "frequency": "793Hz",
+    "resonance": "1.02",
+    "slope": "24 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "0%",
+    "filterLFOInvert": "Off"
+  }
+}

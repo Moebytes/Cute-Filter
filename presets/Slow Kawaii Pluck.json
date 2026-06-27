@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "Slow Kawaii Pluck",
+  "author": "Moebytes",
+  "modified": "2026-06-27T02:02:11.683-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "lowpass",
+    "frequency": "3940Hz",
+    "resonance": "1.55",
+    "slope": "24 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/2",
+    "filterLFOAmount": "100%",
+    "filterLFOInvert": "Off"
+  }
+}

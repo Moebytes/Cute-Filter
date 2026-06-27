@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "Old Radio",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:47:21.922-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "bandpass",
+    "frequency": "1560Hz",
+    "resonance": "1.01",
+    "slope": "36 dB",
+    "filterLFOType": "triangle",
+    "filterLFORate": "4/1",
+    "filterLFOAmount": "20%",
+    "filterLFOInvert": "Off"
+  }
+}

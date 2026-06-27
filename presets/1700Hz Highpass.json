@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "1700Hz Highpass",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:36:55.413-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "highpass",
+    "frequency": "1729Hz",
+    "resonance": "0.97",
+    "slope": "36 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "0%",
+    "filterLFOInvert": "Off"
+  }
+}

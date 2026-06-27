@@ -1,0 +1,19 @@
+.filter-selector {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.15rem solid var(--mainColor);
+    border-radius: 1.0rem;
+    padding: 0.5rem 1.0rem;
+    width: 10.5rem;
+}
+
+.filter-selector-label {
+    font-family: "BestTen-CRT", sans-serif;
+    font-weight: bold;
+    color: var(--mainColor);
+    font-size: 1.34rem;
+    text-align: center;
+    white-space: nowrap;
+}

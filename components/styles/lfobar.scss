@@ -1,0 +1,88 @@
+.lfobar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0.6rem;
+    user-select: none;
+}
+
+.lfobar-label {
+    font-family: MaruMinya, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+    font-size: 1.3rem;
+}
+
+.lfobar-waves {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    border: 1px solid var(--mainColor);
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.wave-option {
+    cursor: pointer;
+}
+
+.wave-icon {
+    width: auto;
+    height: 1.6rem;
+    margin-top: 0.3rem;
+}
+
+.lfobar-rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+}
+
+.lfobar-rate-part {
+    color: var(--textColor);
+    font-family: MaruMinya, sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    margin-left: 0.12rem;
+    margin-right: 0.12rem;
+    width: 1.25rem;
+    text-align: center;
+    cursor: ns-resize;
+    &:first-child {
+        margin: 0rem;
+    }
+}
+
+.lfobar-rate-slash {
+    color: var(--textColor);
+    font-family: MaruMinya, sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    margin-left: 0.12rem;
+    margin-right: 0.12rem;
+}
+
+.lfobar-rate-text {
+    color: var(--textColor);
+    font-family: MaruMinya, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+    font-size: 1.0rem;
+}
+
+.lfobar-rate-icon {
+    width: auto;
+    height: 1.4rem;
+}
+
+.lfobar-arrow-icon {
+    width: auto;
+    height: 1.8rem;
+}

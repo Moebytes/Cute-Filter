@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "500Hz Lowpass",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:35:49.318-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "lowpass",
+    "frequency": "507Hz",
+    "resonance": "1.08",
+    "slope": "48 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "0%",
+    "filterLFOInvert": "Off"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "Resonant Pluck",
+  "author": "Moebytes",
+  "modified": "2026-06-27T02:05:05.409-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "lowpass",
+    "frequency": "4065Hz",
+    "resonance": "1.90",
+    "slope": "24 dB",
+    "filterLFOType": "saw",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "100%",
+    "filterLFOInvert": "Off"
+  }
+}

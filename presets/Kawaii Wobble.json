@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "Kawaii Wobble",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:41:04.397-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "lowpass",
+    "frequency": "3152Hz",
+    "resonance": "1.37",
+    "slope": "36 dB",
+    "filterLFOType": "triangle",
+    "filterLFORate": "1/8",
+    "filterLFOAmount": "100%",
+    "filterLFOInvert": "Off"
+  }
+}

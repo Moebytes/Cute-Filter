@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "1200Hz Lowpass",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:34:53.907-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "lowpass",
+    "frequency": "1245Hz",
+    "resonance": "1.35",
+    "slope": "36 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "0%",
+    "filterLFOInvert": "Off"
+  }
+}

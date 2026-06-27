@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "900Hz Bandpass",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:38:14.837-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "bandpass",
+    "frequency": "905Hz",
+    "resonance": "1.10",
+    "slope": "48 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/4",
+    "filterLFOAmount": "0%",
+    "filterLFOInvert": "Off"
+  }
+}

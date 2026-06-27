@@ -1,0 +1,50 @@
+import React, {useState, useEffect} from "react"
+import * as JUCE from "juce-framework-frontend-mirror"
+import parameters from "../processor/parameters.json"
+import "./styles/filterselector.scss"
+
+const openFilterSelector = JUCE.getNativeFunction("openFilterSelector")
+
+const FilterSelector: React.FunctionComponent = () => {
+    const filterState = JUCE.getComboBoxState(parameters.filter.id)!
+    const filterChoices = filterState.properties.choices
+    
+    const slopeState = JUCE.getComboBoxState(parameters.slope.id)!
+    const slopeChoices = slopeState.properties.choices
+
+    const [filterIndex, setFilterIndex] = useState(filterState.getChoiceIndex())
+    const [slopeIndex, setSlopeIndex] = useState(slopeState.getChoiceIndex())
+
+
+    useEffect(() => {
+        setFilterIndex(filterState.getChoiceIndex())
+        setSlopeIndex(slopeState.getChoiceIndex())
+    }, [])
+
+    useEffect(() => {
+        const filterValueID = filterState.valueChangedEvent.addListener(() => {
+            setFilterIndex(filterState.getChoiceIndex())
+        })
+        const slopeValueID = slopeState.valueChangedEvent.addListener(() => {
+            setSlopeIndex(slopeState.getChoiceIndex())
+        })
+        return () => {
+            filterState.valueChangedEvent.removeListener(filterValueID)
+            slopeState.valueChangedEvent.removeListener(slopeValueID)
+        }
+    }, [])
+
+    const filterSelector = async () => {
+        await openFilterSelector()
+    }
+
+    return (
+        <div className="filter-selector" onPointerDown={filterSelector}>
+            <span className="filter-selector-label">
+                {filterChoices[filterIndex].toUpperCase()} {slopeChoices[slopeIndex]}
+            </span>
+        </div>
+    )
+}
+
+export default FilterSelector

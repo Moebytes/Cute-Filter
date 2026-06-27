@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "Kawaii Pluck",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:40:27.138-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "lowpass",
+    "frequency": "3271Hz",
+    "resonance": "1.30",
+    "slope": "36 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/8",
+    "filterLFOAmount": "100%",
+    "filterLFOInvert": "Off"
+  }
+}

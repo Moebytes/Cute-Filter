@@ -1,0 +1,18 @@
+{
+  "plugin": "Cute Filter",
+  "version": "1.0.0",
+  "name": "Band Pluck",
+  "author": "Moebytes",
+  "modified": "2026-06-27T01:45:00.628-04:00",
+  "presetFormat": 1,
+  "parameters": {
+    "filter": "bandpass",
+    "frequency": "3917Hz",
+    "resonance": "1.36",
+    "slope": "12 dB",
+    "filterLFOType": "sawExp",
+    "filterLFORate": "1/16",
+    "filterLFOAmount": "100%",
+    "filterLFOInvert": "Off"
+  }
+}

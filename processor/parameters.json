@@ -1,0 +1,10 @@
+{
+    "filter": {"id": "filter", "version": 1},
+    "frequency": {"id": "frequency", "version": 1},
+    "resonance": {"id": "resonance", "version": 1},
+    "slope": {"id": "slope", "version": 1},
+    "filterLFOType": {"id": "filterLFOType", "version": 1},
+    "filterLFORate": {"id": "filterLFORate", "version": 1},
+    "filterLFOAmount": {"id": "filterLFOAmount", "version": 1},
+    "filterLFOInvert": {"id": "filterLFOInvert", "version": 1}
+}

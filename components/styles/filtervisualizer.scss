@@ -1,0 +1,22 @@
+.filter-visualizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5rem;
+    height: 6rem;
+    border: 0.15rem solid var(--mainColor);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.filter-visualizer svg {
+    width: calc(100% - 0.2rem);
+    height: calc(100% - 0.2rem);
+}
+
+.filter-visualizer path {
+    fill: none;
+    stroke: var(--mainColor);
+    stroke-width: 0.3rem;
+    stroke-linecap: round;
+}
