@@ -15,7 +15,6 @@ const FilterSelector: React.FunctionComponent = () => {
     const [filterIndex, setFilterIndex] = useState(filterState.getChoiceIndex())
     const [slopeIndex, setSlopeIndex] = useState(slopeState.getChoiceIndex())
 
-
     useEffect(() => {
         setFilterIndex(filterState.getChoiceIndex())
         setSlopeIndex(slopeState.getChoiceIndex())
@@ -38,10 +37,15 @@ const FilterSelector: React.FunctionComponent = () => {
         await openFilterSelector()
     }
 
+    const filterString = () => {
+        if (!filterChoices[filterIndex]) return "LOWPASS 24 dB"
+        return `${filterChoices[filterIndex].toUpperCase()} ${slopeChoices[slopeIndex]}`
+    }
+
     return (
         <div className="filter-selector" onPointerDown={filterSelector}>
             <span className="filter-selector-label">
-                {filterChoices[filterIndex].toUpperCase()} {slopeChoices[slopeIndex]}
+                {filterString()}
             </span>
         </div>
     )
